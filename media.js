@@ -18,9 +18,9 @@ function calcular(){
 
 	const exibirResultado = document.getElementById("resultado");
 	 if (result > 10 ) {
-	 	exibirResultado.innerHTML = `Você não vai passar, seria necessárior tirar ${parseFloat(result.toFixed(1))}`;
+	 	exibirResultado.innerHTML = `Você não vai passar, seria necessárior tirar nota ${parseFloat(result.toFixed(1))}`;
 	 }else {
 
-	exibirResultado.innerHTML = `Para ter uma média final igual a 7 você pecisa tirar ${parseFloat(result.toFixed(1))}`;
+	exibirResultado.innerHTML = `Para ter uma média final igual a 7 você pecisa tirar nota ${parseFloat(result.toFixed(1))}`;
 	}
 }

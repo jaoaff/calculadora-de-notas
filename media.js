@@ -5,7 +5,11 @@ function calcular(){
 	const quiz= Number(document.getElementById("quiz").value);
 
 
-	let total = outros + quiz;
+	let outrosTratado = (outros * (9 - peso)) / 10; 
+
+	let quizTratado = quiz / 10; 
+	
+	let total = outrosTratado + quizTratado;
 
 	let sobra = 7 - total;
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="stylesheet" href="reset.css">
+	    <link rel="stylesheet" href="styleb.css">
+		<script src="calquiz.js"></script>
+		<meta charset = "UTF-8">
+		<title>Calculadora de Quiz</title>
+	</head>
+	<body>
+		<header>
+			<div class= "caixa">
+				<nav>
+					<ul>
+						<li><a href="comoUsar.html">Como usar</a></li>
+						<li><a href="index.html">Calculadora de média</a></li>
+						<li><a href="calcquiz.html">Calcule o quiz</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<h1> Calculo de quiz</h1>
+			<div class="box">
+				<h2>Insira os Valores abaixo</h2>
+				<input class= "campo" type="number" id= "nativid" placeholder=" Numero de atividades quiz" >
+	            <input class= "campo" type="number" id= "ativFeita" placeholder=" Numero de atividades feitas" >
+	            <button class="btn-cal" type="submit" onclick="calcular()"> calcular</button>
+			</div>
+			<div class="resposta">
+				<h3>Resposta:</h3>
+				<h4 id="resultado"></h4>
+			</div>
+		</main>
+		<footer>
+			<p>&copy;Copyright calculado de Médias João - 2022</p>
+		</footer>
+	</body>	
+</html>

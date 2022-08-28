@@ -18,12 +18,10 @@ header {
 }
 
 .caixa img {
-	position: relative;
-	width: 500px;
-	top: 50px;
-	margin: auto 0;
-	
-
+  position: relative;
+  width: 150px;
+  top: 20px;
+  margin-left: 0;
 }
 
 nav {

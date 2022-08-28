@@ -5,7 +5,7 @@ Body {
 }
 
 header {
-	background-color: #ff3636;
+	background-color: #360000;
 	 padding: 30px 0px 40px;
 }
 
@@ -14,7 +14,7 @@ header {
   	width: 940px;
   	height: 100px;
   	margin: 0 auto;
-    padding: 0;
+    	padding: 0;
 }
 
 .caixa img {
@@ -25,10 +25,10 @@ header {
 }
 
 nav {
-	position: relarive;
-  width: 500px;
-  top: 50px;
-  margin: 0 auto;
+	position: relative;
+  	width: 500px;
+  	top: 50px;
+  	margin: 0 auto;
 }
 
 nav ul {
@@ -42,7 +42,7 @@ nav li {
 }
 
 nav a {
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
   font-size: 25px;
   text-decoration: none;

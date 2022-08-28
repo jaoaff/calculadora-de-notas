@@ -17,6 +17,13 @@ header {
     padding: 0;
 }
 
+.caixa img {
+  position: relative;
+  width: 150px;
+  top: 20px;
+  margin-left: 0;
+}
+
 nav {
 	position: relarive;
   width: 500px;

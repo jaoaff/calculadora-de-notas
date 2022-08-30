@@ -78,7 +78,6 @@ main h1 {
   	width:400px;
 	height: 370px;
  	margin: 0 auto;
- 	
   border-radius: 50px 50px 0 0;
 }
 
@@ -140,7 +139,7 @@ footer p {
 
 @media only screen and (max-width: 1000px) {
   header {
-    height: 350px;
+    height: 480px;
     margin-bottom: 90px;
   }
 
@@ -154,27 +153,67 @@ footer p {
     position: relative;
     width: 150px;
     top: 20px;
-    margin: 120px auto;
+    margin: 250px auto;
     display: block;
   }
 
   nav {
     width: 900px;
-  }
-  nav li a{
-    font-size: 35px;
+    margin-left: 150px;
   }
 
-  /*main, .box {
+  nav li {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: 2px solid;
+    border-color: #ffffff;
+  }
+
+  nav li a{
+    font-size: 55px;
+  }
+
+  main, .box {
     width:auto;
-  }*/
+  }
+
+  main h1 {
+    padding: 25px;
+    margin: 40px;
+    font-size: 65px;
+  }
 
   .box h2{
-    font-size: 35px;
+    font-size: 60px;
+  }
+
+  .box{
+    Height: 900px;
+  }
+
+  .campo {
+  padding: 25px 50px;
+  margin: 0 auto 18px ;
+  font-size: 50px;
+}
+
+  .box button {
+    padding: 20px 40px;
+    font-size: 60px;
+    border-radius: 35px;
+  }
+
+  .resposta {
+  padding: 60px 0 35px 0;
+}
+
+  .resposta h3, .resposta h4{
+    font-size: 55px;
   }
 
   footer {
-    margin: 550px 0 0;
+    margin: 300px 0 0;
     padding: 150px;
     font-size: 35px;
 

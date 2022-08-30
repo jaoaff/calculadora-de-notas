@@ -17,11 +17,16 @@ header {
     padding: 0;
 }
 
-.caixa img {
+.pc {
   position: relative;
   width: 150px;
   top: 20px;
   margin-left: 0;
+}
+
+.cel {
+  opacity: 0;
+  width: 0;
 }
 
 nav {
